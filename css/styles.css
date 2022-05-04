@@ -244,6 +244,11 @@ margin-right: 0;
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header.jpg");
 }
 
@@ -266,6 +271,7 @@ margin-right: 0;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
+  
 }
 
 
@@ -474,6 +480,7 @@ margin-right: 0;
 /* Team */
 .team-section {
   background-color: #F5F4FA;
+
 }
 .team-title {
   color: var(--primary-text-color);
