@@ -93,6 +93,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  transition: color var(--animation);
 }
 .logo-black {
   color: #000000;
@@ -107,6 +108,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  transition: color var(--animation);
 }
 .logo :hover,
 :focus,
@@ -115,6 +117,7 @@ img {
   outline: 0;
   outline-offset: 0;
   text-decoration: none;
+  transition: color var(--animation);
 }
 .link :hover,
 .link :focus {
@@ -657,6 +660,7 @@ fill: #fff;
   line-height: 1.71;
   text-decoration: none;
     margin-right: 70px;
+    transition: color var(--animation);
 }
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
@@ -664,6 +668,7 @@ fill: #fff;
   line-height: 1.71;
   text-decoration: none;
   /* margin-bottom: 9px; */
+  transition: color var(--animation);
 }
 .footer-social {
 
